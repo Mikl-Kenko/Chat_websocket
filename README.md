@@ -1,7 +1,7 @@
 chat_websocket
 
 application: 
-#Life chat
+# Life chat
 
 1. Install dependencies:  pip install -r requirements.txt
 2. Run Redis-Stack:   docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
