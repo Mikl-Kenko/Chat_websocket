@@ -1,3 +1,5 @@
 from django.shortcuts import render
-
-# Create your views here.
+ 
+ 
+def chat_views(request, *args, **kwargs):
+    return render(request, "chat.html")
